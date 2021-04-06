@@ -114,7 +114,7 @@ router.post('/create-checkout-session', async (req, res) => {
 
 router.get('/success', function(req, res, next) {
   console.log(req.query);
-  res.render( 'confirm' , {});
+  res.render( 'confirm' );
 });
 
 module.exports = router;
